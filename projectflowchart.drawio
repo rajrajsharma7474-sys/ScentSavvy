@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="-Lu1UcTsd2uZ7W96VM5p">
+    <mxGraphModel dx="3041" dy="2816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KsWFKb58qMiMAngFfisZ-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=light-dark(#008a00, #b1f7b1);fontColor=#ffffff;strokeColor=#005700;gradientColor=none;perimeterSpacing=0;shadow=1;" value="&lt;div&gt;START&lt;/div&gt;&lt;div&gt;Start ScentSavvy (main())&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="340" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="404.5" y="90" as="sourcePoint" />
+            <mxPoint x="404.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-12" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="405" y="260" />
+              <mxPoint x="405" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-79" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" x="0.0033" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="120" />
+              <mxPoint y="120" />
+            </Array>
+            <mxPoint y="135.9310344827586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Display prompt asking user&lt;/div&gt;&lt;div&gt;to enter a perfume name&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="295" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-14" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Read perfume name&lt;/div&gt;&lt;div&gt;using Java Scanner&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="295" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-17" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-33" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFE599);fontColor=light-dark(#000000,#000000);" value="Is the search input empty?" vertex="1">
+          <mxGeometry height="100" width="100" x="355" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-84" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Display error message&lt;/div&gt;&lt;div&gt;and ask user to try again&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="70" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-35" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-32" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fontColor=#ffffff;fillColor=#0050ef;strokeColor=#001DBC;" value="&lt;div&gt;Send GET request to Scento API&lt;/div&gt;&lt;div&gt;using Java HttpClient&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="325" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-39" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-34" parent="1" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;dashed=0;" value="&lt;div&gt;Parse JSON response&lt;/div&gt;&lt;div&gt;using Gson&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="332.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-46" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-48" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-38" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFE599);fontColor=light-dark(#000000,#000000);" value="Were any matching perfumes found?" vertex="1">
+          <mxGeometry height="110" width="130" x="340" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-45" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Display up to five&lt;/div&gt;&lt;div&gt;matching perfume results&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="295" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-78" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;startArrow=none;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-47" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="Display no-results message" vertex="1">
+          <mxGeometry height="70" width="220" x="-110" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-52" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-51" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="780" as="sourcePoint" />
+            <mxPoint x="405" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-57" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-51" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;User selects a perfume&lt;/div&gt;&lt;div&gt;from the search results.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="295" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-59" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-56" parent="1" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;dashed=0;" value="&lt;div&gt;Retrieve selected perfume details&lt;/div&gt;&lt;div&gt;from Scento API using HttpClient&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="145" x="332.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-61" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-58" parent="1" style="whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;dashed=0;" value="&lt;div&gt;Parse selected perfume details&lt;/div&gt;&lt;div&gt;using Gson&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="145" x="332.5" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-64" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-67" connectable="0" parent="KsWFKb58qMiMAngFfisZ-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.12" y="-1" as="geometry">
+            <mxPoint x="-7" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-65" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KsWFKb58qMiMAngFfisZ-62" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-60" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#FFE599);fontColor=light-dark(#000000,#000000);" value="Are fragrance notes available?" vertex="1">
+          <mxGeometry height="110" width="130" x="340" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-62" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Display available fragrance notes:&lt;/div&gt;&lt;div&gt;Top, Heart, and Base&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="500" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-80" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" x="-0.3282" as="geometry">
+            <mxPoint x="-140" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-63" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;dashed=0;fillColor=light-dark(#6A00FF,#A86CA8);fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;div&gt;Display message that&lt;/div&gt;&lt;div&gt;fragrance notes are unavailable&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="250" x="60" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-70" edge="1" parent="1" source="KsWFKb58qMiMAngFfisZ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.474;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="KsWFKb58qMiMAngFfisZ-62">
+          <mxGeometry relative="1" x="-0.0525" as="geometry">
+            <mxPoint x="630" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-68" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=light-dark(#008a00, #b1f7b1);fontColor=#ffffff;strokeColor=#005700;gradientColor=none;perimeterSpacing=0;shadow=1;" value="&lt;div&gt;END&lt;/div&gt;&lt;div&gt;End perfume search&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="340" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="KsWFKb58qMiMAngFfisZ-86" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-140" y="120" as="sourcePoint" />
+            <mxPoint y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
