@@ -17,7 +17,7 @@ Finding accurate fragrance information can be difficult because perfume notes ar
 
 ### System Diagram
 
-![ScentSavvy System Flowchart](docs/projectflowchart.png)
+![ScentSavvy System Flowchart](projectflowchart.drawio.png)
 
 ## Tech Stack
 
