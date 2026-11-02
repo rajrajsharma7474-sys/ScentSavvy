@@ -15,25 +15,43 @@ The goal of ScentSavvy is to make perfume information easier to find and underst
 - Handle invalid searches and missing information.
 
 ## Tech Stack
-- **Language:** Java
+- **Programming Language:** Java
 - **HTTP Requests:** Java HttpClient
 - **JSON Parsing:** Gson
 - **User Input:** Java Scanner
-- **External API:** Scento Perfume API
+- **External Data Source:** Scento Perfume API
 - **Development Environment:** IntelliJ IDEA
 
 ## Future Plans
 - Search by perfume brand.
 - Compare fragrance notes between perfumes.
+- Display additional perfume information, such as fragrance family.
 - Save favorite perfumes.
-- Add a graphical user interface.
-- Keep a search history.
+- Keep a history of recently searched perfumes.
+- Add a graphical user interface (GUI).
+- Improve search suggestions for incomplete or misspelled perfume names.
+- Support additional fragrance note formats when top, heart, and base notes are unavailable.
 - Provide personalized perfume recommendations.
 
 ## Project Structure
-- `src/` — Java source code.
-- `docs/` — Project planning documents and diagrams.
-- `README.md` — Project overview and documentation.
+
+```text
+ScentSavvy/
+│
+├── README.md
+│
+├── docs/
+│   ├── ScentSavvy-Planning.pdf
+│   ├── projectflowchart.drawio
+│   └── projectflowchart.png
+│
+└── src/
+    └── Java source files
+```
+
+- **src/** — Contains the Java source code.
+- **docs/** — Contains project planning documents and diagrams.
+- **README.md** — Provides an overview of the project, its features, and technologies.
 
 ## Project Status
 Currently in the planning and initial development stage.
