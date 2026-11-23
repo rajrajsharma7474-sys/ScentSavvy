@@ -49,14 +49,25 @@ public class Main {
                 if (searchResponse.detail != null) {
                     IO.println("Total matches: " + searchResponse.detail.total);
 
-                    for (PerfumeSearchResponse.PerfumeMatch perfume
-                            : searchResponse.detail.matches) {
+                    if (searchResponse.detail.matches.isEmpty()) {
+                        IO.println("No matching perfumes found.");
+                    } else {
 
-                        IO.println("Perfume: " + perfume.name);
-                        IO.println("Brand: " + perfume.house);
-                        IO.println("Page: " + perfume.page);
-                        IO.println("------------------------");
+                        int resultCount = Math.min(5, searchResponse.detail.matches.size());
+
+                        IO.println("\nShowing up to " + resultCount + " results:");
+
+                        for (int i = 0; i < resultCount; i++) {
+
+                            PerfumeSearchResponse.PerfumeMatch perfume =
+                                    searchResponse.detail.matches.get(i);
+
+                            IO.println("\n" + (i + 1) + ". " + perfume.name);
+                            IO.println("   Brand: " + perfume.house);
+                            IO.println("   Page: " + perfume.page);
+                        }
                     }
+
                 } else {
                     IO.println("No perfume information available.");
                 }
