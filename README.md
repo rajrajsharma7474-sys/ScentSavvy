@@ -23,7 +23,7 @@ Finding accurate fragrance information can be difficult because perfume notes ar
 
 - **Language:** Java
 - **Libraries:** Gson for JSON parsing.
-- **Java Packages:** HttpClient for API requests and Scanner for user input.
+- **Java Packages:** HttpClient for API requests and IO.readln() for user input.
 - **External API:** Scento Perfume API.
 - **External Tools:** curl for testing API requests and jq for inspecting JSON responses.
 - **Development Environment:** IntelliJ IDEA.
