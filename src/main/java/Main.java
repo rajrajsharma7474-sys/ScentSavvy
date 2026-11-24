@@ -152,6 +152,32 @@ public class Main {
                                     if (details != null && details.detail != null) {
                                         IO.println("\n--- Perfume Details ---");
                                         IO.println("Fragrance Family: " + details.detail.family);
+                                        IO.println("Fragrance Subfamily: " + details.detail.subfamily);
+
+                                        IO.println("Character: " + details.detail.character);
+
+                                        if (details.detail.character_words != null
+                                                && !details.detail.character_words.isEmpty()) {
+                                            IO.println("Character Words: " + details.detail.character_words);
+                                        }
+
+                                        if (details.detail.wears != null) {
+
+                                            if (details.detail.wears.seasons != null
+                                                    && !details.detail.wears.seasons.isEmpty()) {
+                                                IO.println("Recommended Seasons: " + details.detail.wears.seasons);
+                                            }
+
+                                            if (details.detail.wears.hours != null
+                                                    && !details.detail.wears.hours.isEmpty()) {
+                                                IO.println("Recommended Time: " + details.detail.wears.hours);
+                                            }
+                                        }
+
+                                        if (details.detail.signature_materials != null
+                                                && !details.detail.signature_materials.isEmpty()) {
+                                            IO.println("Signature Materials: " + details.detail.signature_materials);
+                                        }
 
                                         if (details.detail.pyramid != null) {
                                             IO.println("Top Notes: " + details.detail.pyramid.top);
