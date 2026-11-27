@@ -41,10 +41,10 @@ Finding accurate fragrance information can be difficult because perfume notes ar
 
 Before running ScentSavvy, make sure you have:
 
--Java JDK 25 or newer.
--Maven.
--An internet connection.
--Gson is downloaded automatically by Maven using the dependency in pom.xml. No separate Gson installation or API key is required.
+- Java JDK 25 or newer.
+- Maven.
+- An internet connection.
+- Gson is downloaded automatically by Maven using the dependency in pom.xml. No separate Gson installation or API key is required.
 
 ## Installation
 
