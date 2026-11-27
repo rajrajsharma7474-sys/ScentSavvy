@@ -12,55 +12,111 @@ Finding accurate fragrance information can be difficult because perfume notes ar
 - ScentSavvy searches for the perfume using the Scento API.
 - The application displays up to five matching perfume results.
 - The user selects the perfume they are looking for.
-- ScentSavvy retrieves the selected perfume's details and displays its available fragrance notes, including top, heart, and base notes when provided.
-- The application handles invalid searches and missing fragrance information.
+- ScentSavvy retrieves the selected perfume's details.
+- The application displays available fragrance information, including fragrance family, subfamily, character, recommended seasons, recommended times, signature materials, and fragrance notes.
+- When top, heart, and base notes are provided, they are displayed separately. Otherwise, available fragrance notes are displayed in an unclassified format.
+- The application handles blank input, invalid selections, unsuccessful searches, and API errors.
 
+  
 ### System Diagram
 
 ![ScentSavvy System Flowchart](projectflowchart.drawio.png)
 
 ## Tech Stack
 
-- **Language:** Java
+- **Language:** Java 27
 - **Libraries:** Gson for JSON parsing.
-- **Build Tool:** Maven for dependency management and project builds.
-- **Java Packages:** HttpClient for API requests and IO.readln() for user input.
-- **External API:** Scento Perfume API.
-- **External Tools:** curl for testing API requests and jq for inspecting JSON responses.
-- **Development Environment:** IntelliJ IDEA.
+-**Build Tool:** Maven for dependency management and project builds.
+-**Java Packages:** HttpClient for API requests, IO for command-line input and output, and URI/URLEncoder for API requests.
+-**External API:** Scento Perfume API.
+-**External Tools:** curl for testing API requests and jq for inspecting JSON responses.
+-**Development Environment:** IntelliJ IDEA.
+-**Data Storage:** No database is used. Perfume information is retrieved from the Scento API when the application runs.
+
+
 
 ## Setup
 
-ScentSavvy is currently in the planning and initial development stage. Full setup instructions will be added once the Java application is implemented.
+**Requirements:**
 
-Planned setup:
-1. Install the required Java JDK.
-2. Clone the public GitHub repository.
-3. Open the project in IntelliJ IDEA.
-4. Configure the Gson dependency.
-5. Run the Java application.
+Before running ScentSavvy, make sure you have:
+
+-Java JDK 25 or newer.
+-Maven.
+-An internet connection.
+-Gson is downloaded automatically by Maven using the dependency in pom.xml. No separate Gson installation or API key is required.
+
+## Installation
+
+Installation and Running
+
+Clone the repository:
+
+``` bash 
+git clone https://github.com/rajrajsharma7474-sys/ScentSavvy.git
+```
+
+Navigate into the project directory:
+
+```bash 
+cd ScentSavvy
+```
+
+Check that Java and Maven are installed:
+
+```bash
+java --version
+```
+```bash
+mvn --version
+```
+
+Compile the project:
+
+``` bash
+mvn clean compile
+```
+
+Run ScentSavvy directly from the terminal:
+
+``` bash 
+mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java -Dexec.mainClass=Main
+```
 
 ## Usage
 
-Usage instructions and examples will be added once the application is implemented.
+After starting the application, enter a perfume name when prompted. ScentSavvy will display matching results and allow you to select a perfume.
+Example 1: Searching for a perfume:
+<img width="2048" height="890" alt="image" src="https://github.com/user-attachments/assets/63e62e86-3eae-4ccf-9fd4-1ca3c6474af1" />
 
-The planned application will allow users to:
-1. Enter a perfume name.
-2. View up to five matching search results.
-3. Select a perfume.
-4. View its available fragrance notes.
+Example 2: Searching for a perfume with no matches:
+<img width="670" height="270" alt="image" src="https://github.com/user-attachments/assets/982fc340-de41-4267-9e65-939b5a20f51e" />
+
+The user can enter another perfume name without restarting the application.
+The exact perfume information and search results depend on the information returned by the Scento API.
 
 ## Roadmap
 
-- Add perfume brand search to make finding fragrances easier.
-- Allow users to compare fragrance notes across multiple perfumes.
-- Display more perfume details, such as fragrance family.
-- Let users save and manage their favorite perfumes.
-- Keep a history of previously searched perfumes.
-- Improve search suggestions for incomplete or misspelled perfume names.
-- Support different fragrance note formats when top, heart, and base notes are not provided.
-- Introduce personalized perfume recommendations based on user preferences.
-- Develop a graphical user interface (GUI) for a more interactive experience.
+- [x] Set up the Java project and connect it to GitHub.
+- [x] Implement command-line perfume name input.
+- [x] Connect the application to the Scento API using HttpClient.
+- [x] Parse API responses using Gson.
+- [x] Display up to five matching perfume search results.
+- [x] Allow users to select a perfume and retrieve its details.
+- [x] Display fragrance notes, including top, heart, and base notes when available.
+- [x] Display additional perfume information, such as fragrance family, character, recommended seasons, recommended times, and signature materials.
+- [x] Handle invalid input, unsuccessful searches, and API errors.
+- [ ] Add perfume brand search to make finding fragrances easier.
+- [ ] Allow users to compare fragrance notes across multiple perfumes.
+- [ ] Let users save and manage their favorite perfumes.
+- [ ] Keep a history of previously searched perfumes.
+- [ ] Improve search suggestions for incomplete or misspelled perfume names.
+- [ ] Introduce personalized perfume recommendations based on user preferences.
+- [ ] Develop a graphical user interface (GUI) for a more interactive experience.
+
+Demo
+
+Final project video walkthrough:
 
 ## Author
 
