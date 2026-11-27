@@ -90,7 +90,8 @@ Example 1: Searching for a perfume:
 <img width="2048" height="890" alt="image" src="https://github.com/user-attachments/assets/63e62e86-3eae-4ccf-9fd4-1ca3c6474af1" />
 
 Example 2: Searching for a perfume with no matches:
-<img width="670" height="270" alt="image" src="https://github.com/user-attachments/assets/982fc340-de41-4267-9e65-939b5a20f51e" />
+<img width="874" height="366" alt="image" src="https://github.com/user-attachments/assets/c9d1c489-8a9d-4782-9a58-5e0e2c77f853" />
+
 
 The user can enter another perfume name without restarting the application.
 The exact perfume information and search results depend on the information returned by the Scento API.
