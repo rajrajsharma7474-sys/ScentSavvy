@@ -111,8 +111,7 @@ public class Main {
         HttpResponse<String> response;
 
         try {
-            response = client.send(
-                    request,
+            response = client.send(request,
                     HttpResponse.BodyHandlers.ofString()
             );
 
@@ -173,8 +172,7 @@ public class Main {
 
         while (true) {
 
-            String selectionIndex = IO.readln(
-                    "Enter the number of the perfume you want to know about: ");
+            String selectionIndex = IO.readln("Enter the number of the perfume you want to know about: ");
 
             if (selectionIndex == null || selectionIndex.isBlank()) {
                 IO.println("Please select a number");
@@ -185,8 +183,7 @@ public class Main {
                     choice = Integer.parseInt(selectionIndex);
 
                     if (choice < 1 || choice > resultCount) {
-                        IO.println("Invalid selection. Please choose a number from 1 to "
-                                + resultCount + ".");
+                        IO.println("Invalid selection. Please choose a number from 1 to " + resultCount + ".");
                         continue;
                     } else {
                         break;
