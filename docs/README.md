@@ -123,7 +123,7 @@ The exact perfume information and search results depend on the information retur
 
 ## Demo
 
-Final project video walkthrough:
+Final project video walkthrough: [link text](https://youtu.be/d_-J3mrRHS8?si=N9Uoq3HdKzkXIcSg)
 
 ## Author
 
