@@ -26,12 +26,12 @@ Finding accurate fragrance information can be difficult because perfume notes ar
 
 - **Language:** Java 27
 - **Libraries:** Gson for JSON parsing.
--**Build Tool:** Maven for dependency management and project builds.
--**Java Packages:** HttpClient for API requests, IO for command-line input and output, and URI/URLEncoder for API requests.
--**External API:** Scento Perfume API.
--**External Tools:** curl for testing API requests and jq for inspecting JSON responses.
--**Development Environment:** IntelliJ IDEA.
--**Data Storage:** No database is used. Perfume information is retrieved from the Scento API when the application runs.
+- **Build Tool:** Maven for dependency management and project builds.
+- **Java Packages:** HttpClient for API requests, IO for command-line input and output, and URI/URLEncoder for API requests.
+- **External API:** Scento Perfume API.
+- **External Tools:** curl for testing API requests and jq for inspecting JSON responses.
+- **Development Environment:** IntelliJ IDEA.
+- **Data Storage:** No database is used. Perfume information is retrieved from the Scento API when the application runs.
 
 
 
