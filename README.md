@@ -107,7 +107,7 @@ The exact perfume information and search results depend on the information retur
 - [x] Display fragrance notes, including top, heart, and base notes when available.
 - [x] Display additional perfume information, such as fragrance family, character, recommended seasons, recommended times, and signature materials.
 - [x] Handle invalid input, unsuccessful searches, and API errors.
-- [ ] Add perfume brand search to make finding fragrances easier.
+- [x] Add perfume brand search to make finding fragrances easier.
 - [ ] Allow users to compare fragrance notes across multiple perfumes.
 - [ ] Let users save and manage their favorite perfumes.
 - [ ] Keep a history of previously searched perfumes.
