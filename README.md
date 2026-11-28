@@ -115,7 +115,7 @@ The exact perfume information and search results depend on the information retur
 - [ ] Introduce personalized perfume recommendations based on user preferences.
 - [ ] Develop a graphical user interface (GUI) for a more interactive experience.
 
-Demo
+## Demo
 
 Final project video walkthrough:
 
