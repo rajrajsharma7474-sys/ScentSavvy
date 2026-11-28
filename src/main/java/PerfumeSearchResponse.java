@@ -1,6 +1,7 @@
 import java.util.List;
 
 // This class stores the response we get from the Scento API.
+//represent the structure of the API response in java
 public class PerfumeSearchResponse {
 
     // Stores the search details.

@@ -14,7 +14,6 @@ public class Main {
     // Main method controls the overall flow of ScentSavvy
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        // Welcome message
         IO.println("===============================");
         IO.println("     Welcome to ScentSavvy!");
         IO.println("===============================");
@@ -46,9 +45,10 @@ public class Main {
                 if (searchResponse.detail.matches.isEmpty()) {
                     IO.println("No matching perfumes found.");
                     IO.println("Please try another perfume name.\n");
+                    // Let the user try another search instead of ending the application.
                     continue;
                 }
-
+                // Limit the results to five so the user isn't overwhelmed by too many matches.
                 int resultCount = Math.min(5, searchResponse.detail.matches.size());
 
                 // Display the matching perfumes
@@ -97,7 +97,7 @@ public class Main {
     // Sends the search request and gets the matching perfumes.
     public static PerfumeSearchResponse searchPerfumes(
             HttpClient client, Gson gson, String perfumeName) {
-
+        // Encode the input so spaces and special characters don't break the API URL.
         String encodedName = URLEncoder.encode(perfumeName, StandardCharsets.UTF_8);
 
         String apiUrl = "https://www.scento.com/api/perfume/v1/search?q="
@@ -121,6 +121,7 @@ public class Main {
             return null;
 
         } catch (InterruptedException e) {
+            // Preserve the interruption signal so other code can detect it.
             Thread.currentThread().interrupt();
             IO.println("The API request was interrupted.");
             return null;
@@ -130,10 +131,10 @@ public class Main {
 
         if (response.statusCode() == 200) {
 
-            // Convert JSON response into a Java object
+            // Use Gson to map the JSON into Java objects instead of extracting each value manually.
             PerfumeSearchResponse searchResponse =
                     gson.fromJson(response.body(), PerfumeSearchResponse.class);
-
+            // Return the parsed data so main() can display the search results.
             return searchResponse;
 
         } else {
@@ -284,7 +285,7 @@ public class Main {
                 && !details.detail.signature_materials.isEmpty()) {
             IO.println("Signature Materials: " + details.detail.signature_materials);
         }
-
+        // The API doesn't always provide notes in top, heart, and base categories.
         if (details.detail.pyramid != null) {
             IO.println("Top Notes: " + details.detail.pyramid.top);
             IO.println("Heart Notes: " + details.detail.pyramid.heart);
