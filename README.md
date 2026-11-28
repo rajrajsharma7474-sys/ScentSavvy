@@ -82,6 +82,12 @@ Run ScentSavvy directly from the terminal:
 ``` bash 
 mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java -Dexec.mainClass=Main
 ```
+To rerun ScentSavvy, make sure you are inside the ScentSavvy directory in your terminal and copy and execute the following command:
+
+``` bash 
+mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java -Dexec.mainClass=Main
+```
+
 
 ## Usage
 
